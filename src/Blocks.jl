@@ -19,7 +19,7 @@ function run_code(code_str)
 end
 
 include("common/block_if.jl")
-include("common/block_var.jl")
+include("common/block_define.jl")
 include("common/block_fun.jl")
 include("common/block_expr.jl")
 include("common/block_loop.jl")
