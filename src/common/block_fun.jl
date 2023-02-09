@@ -1,5 +1,5 @@
 function block_fun(name, args...)
     return """
-    $name($args...)
+    $name$args
     """
 end
