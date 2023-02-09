@@ -1,3 +1,5 @@
 function block_expr(content)
-    return """$content"""
+    return """
+    $content
+    """
 end
