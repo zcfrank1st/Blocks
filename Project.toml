@@ -1,0 +1,13 @@
+name = "Blocks"
+uuid = "e4af8e11-ec60-4abf-acf4-5d21d54ded69"
+authors = ["zcfrank1st <172180230@qq.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
